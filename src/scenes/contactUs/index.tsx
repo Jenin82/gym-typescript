@@ -68,7 +68,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             <form
               target="_blank"
               onSubmit={onSubmit}
-              action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
+              //   action="https://formsubmit.co/e8a5bdfa807605332f809e5656e27c6e"
               method="POST"
             >
               <input
@@ -145,11 +145,16 @@ const ContactUs = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext">
-              <img
+              {/* <img
                 className="w-full"
                 alt="contact-us-page-graphic"
                 src={ContactUsPageGraphic}
-              />
+              /> */}
+              <h3>+91 98470 33336</h3>
+              <h4>
+                Manath Residency NGO Quarters,Kakkanad, near Old NGO Quarters,
+                Ernakulam, Kerala 682021
+              </h4>
             </div>
           </motion.div>
         </div>

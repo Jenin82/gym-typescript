@@ -151,10 +151,10 @@ const ContactUs = ({ setSelectedPage }: Props) => {
                 src={ContactUsPageGraphic}
               /> */}
               <h3>+91 98470 33336</h3>
-              <h4>
+              <h5>
                 Manath Residency NGO Quarters,Kakkanad, near Old NGO Quarters,
                 Ernakulam, Kerala 682021
-              </h4>
+              </h5>
             </div>
           </motion.div>
         </div>
